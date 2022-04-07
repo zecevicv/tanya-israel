@@ -684,6 +684,11 @@ body {
 .projects-grid a {
   position: relative;
   display: block;
+  overflow: hidden;
+}
+
+.projects-grid a:hover .img img {
+  transform: scale(1.07);
 }
 
 .projects-grid .img img {
@@ -691,6 +696,8 @@ body {
   height: 33.28vw;
   object-fit: cover;
   object-position: center;
+  transition: all .4s ease;
+  transform: scale(1.01);
 }
 
 .projects-grid .logo {
