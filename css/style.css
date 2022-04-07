@@ -1124,3 +1124,200 @@ body {
     height: 66.66vw;
   }
 }
+
+/* #About Banner
+================================================== */
+.about-banner {
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+}
+
+.about-banner .text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 42.5vw;
+}
+
+.about-banner .text img {
+  width: 31.25vw;
+  margin: 0 auto;
+  margin-bottom: 1.8vw;
+  margin-top: 1.3vw;
+}
+
+@media (min-width: 1024px) {
+  .about-banner .banner-scroll {
+    bottom: 2.6vw;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .about-banner .text {
+    width: 87%;
+  }
+  
+  .about-banner .text img {
+    width: 80vw;
+    margin-bottom: 4.93vw;
+    margin-top: 3.33vw;
+  }
+}
+
+/* #Map
+================================================== */
+.map h2 {
+  margin-bottom: 1.4vw;
+  text-align: center;
+}
+
+.map #map {
+  width: 100%;
+  height: 47.7vw;
+}
+
+@media (max-width: 1023.98px) {
+  .map h2 {
+    margin-bottom: 6vw;
+  }
+
+  .map #map {
+    height: 193.33vw;
+  }
+}
+
+/* #Team
+================================================== */
+.team {
+  padding: 6vw 0 6.5vw 0;
+  text-align: center;
+}
+
+.team .container {
+  width: 56%;
+}
+
+.team h2 {
+  margin-bottom: 3vw;
+}
+
+.team ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team ul.top {
+  margin: 0 -2.9vw;
+  margin-bottom: 4.68vw;
+}
+
+.team ul.top li {
+  flex: 0 0 50%;
+  padding: 0 2.9vw;
+}
+
+.team ul img {
+  margin-bottom: 1.4vw;
+}
+
+.team ul.top img {
+  width: 100%;
+  height: 23.95vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.team ul.bottom {
+  margin: -3.3vw -2.36vw;
+}
+
+.team ul.bottom li {
+  flex: 0 0 33.3333%;
+  padding: 3.3vw 2.36vw;
+}
+
+.team ul.bottom img {
+  width: 100%;
+  height: 14.8vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.team h4 {
+  margin-bottom: .5vw;
+}
+
+.team p {
+  line-height: 1.35;
+}
+
+@media (max-width: 1023.98px) {
+  .team {
+    padding: 13.33vw 0 16vw 0;
+  }
+  
+  .team .container {
+    width: 100%;
+  }
+  
+  .team h2 {
+    margin-bottom: 8vw;
+  }
+  
+  .team ul {
+    display: block;
+  }
+  
+  .team ul.top {
+    margin: 0;
+  }
+  
+  .team ul.top li {
+    padding: 0;
+  }
+
+  .team ul.top li {
+    margin-bottom: 13.33vw;
+  }
+  
+  .team ul img {
+    margin-bottom: 6vw;
+  }
+  
+  .team ul.top img {
+    height: 95.6vw;
+  }
+
+  .team ul.top .text {
+    padding: 0 6.65vw;
+  }
+  
+  .team ul.bottom {
+    margin: 0;
+    padding: 0 5.33vw;
+  }
+  
+  .team ul.bottom li {
+    padding: 0;
+  }
+
+  .team ul.bottom li:not(:last-child) {
+    margin-bottom: 13.33vw;
+  }
+  
+  .team ul.bottom img {
+    height: 85.4vw;
+  }
+  
+  .team h4 {
+    margin-bottom: 4vw;
+  }
+  
+  .team p {
+    line-height: 1.35;
+  }
+}
